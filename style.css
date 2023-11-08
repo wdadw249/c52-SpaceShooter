@@ -1,0 +1,57 @@
+body {
+    background: url("./assets/background.jpg") center/100% 100% no-repeat fixed;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+}
+
+.start-button {
+    width: 200px;
+    height: 90px;
+    background-image: url("assets/start.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#newGame {
+    display: none;
+  }
+
+  
+.new-button {
+    width: 300px;
+    height: 150px;
+    background-image: url("assets/newGame.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.new-button:hover {
+    background-color: #007BFF;
+}
+
+.start-button:hover {
+    background-color: #007BFF;
+}
+
+.image-title {
+    display: block;
+    margin: 0 auto;
+    top: 0; 
+    left: 50%;
+    width: 400px; 
+    height: 250px; 
+    
+}
